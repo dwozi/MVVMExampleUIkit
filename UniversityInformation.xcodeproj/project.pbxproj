@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		56551C8E2BE8E7D100F391ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56551C8D2BE8E7D100F391ED /* AppDelegate.swift */; };
 		56551C902BE8E7D100F391ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56551C8F2BE8E7D100F391ED /* SceneDelegate.swift */; };
-		56551C922BE8E7D100F391ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56551C912BE8E7D100F391ED /* ViewController.swift */; };
-		56551C952BE8E7D100F391ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56551C932BE8E7D100F391ED /* Main.storyboard */; };
 		56551C972BE8E7D600F391ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56551C962BE8E7D600F391ED /* Assets.xcassets */; };
 		56551C9A2BE8E7D600F391ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56551C982BE8E7D600F391ED /* LaunchScreen.storyboard */; };
+		56551CA62BE8E85C00F391ED /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56551CA52BE8E85C00F391ED /* MainViewController.swift */; };
+		56551CA82BE9255900F391ED /* MainViewControllerTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56551CA72BE9255900F391ED /* MainViewControllerTableView.swift */; };
+		56551CAB2BE9257C00F391ED /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56551CAA2BE9257C00F391ED /* MainViewModel.swift */; };
+		56551CAE2BE9286E00F391ED /* ServiceConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56551CAD2BE9286E00F391ED /* ServiceConstant.swift */; };
+		56551CB02BE9291300F391ED /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56551CAF2BE9291300F391ED /* Service.swift */; };
+		56551CB32BE9295400F391ED /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 56551CB22BE9295400F391ED /* Alamofire */; };
+		56551CB52BE9295400F391ED /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 56551CB42BE9295400F391ED /* AlamofireDynamic */; };
+		56551CB82BE92B2000F391ED /* University.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56551CB72BE92B2000F391ED /* University.swift */; };
+		56551CBB2BE930D000F391ED /* MainViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56551CBA2BE930D000F391ED /* MainViewCell.swift */; };
+		56551CBD2BE935A200F391ED /* MainViewCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56551CBC2BE935A200F391ED /* MainViewCellModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		56551C8A2BE8E7D100F391ED /* UniversityInformation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniversityInformation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56551C8D2BE8E7D100F391ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56551C8F2BE8E7D100F391ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		56551C912BE8E7D100F391ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		56551C942BE8E7D100F391ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		56551C962BE8E7D600F391ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56551C992BE8E7D600F391ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		56551C9B2BE8E7D600F391ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56551CA52BE8E85C00F391ED /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		56551CA72BE9255900F391ED /* MainViewControllerTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewControllerTableView.swift; sourceTree = "<group>"; };
+		56551CAA2BE9257C00F391ED /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		56551CAD2BE9286E00F391ED /* ServiceConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceConstant.swift; sourceTree = "<group>"; };
+		56551CAF2BE9291300F391ED /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		56551CB72BE92B2000F391ED /* University.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = University.swift; sourceTree = "<group>"; };
+		56551CBA2BE930D000F391ED /* MainViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewCell.swift; sourceTree = "<group>"; };
+		56551CBC2BE935A200F391ED /* MainViewCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewCellModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56551CB32BE9295400F391ED /* Alamofire in Frameworks */,
+				56551CB52BE9295400F391ED /* AlamofireDynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +72,69 @@
 		56551C8C2BE8E7D100F391ED /* UniversityInformation */ = {
 			isa = PBXGroup;
 			children = (
-				56551C8D2BE8E7D100F391ED /* AppDelegate.swift */,
-				56551C8F2BE8E7D100F391ED /* SceneDelegate.swift */,
-				56551C912BE8E7D100F391ED /* ViewController.swift */,
-				56551C932BE8E7D100F391ED /* Main.storyboard */,
+				56551CB92BE930BC00F391ED /* View */,
+				56551CB62BE92B1200F391ED /* Model */,
+				56551CAC2BE9286300F391ED /* Service */,
+				56551CA92BE9256F00F391ED /* ViewModel */,
+				56551CA22BE8E7EF00F391ED /* Controller */,
+				56551CA42BE8E81100F391ED /* Files */,
+			);
+			path = UniversityInformation;
+			sourceTree = "<group>";
+		};
+		56551CA22BE8E7EF00F391ED /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				56551CA52BE8E85C00F391ED /* MainViewController.swift */,
+				56551CA72BE9255900F391ED /* MainViewControllerTableView.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		56551CA42BE8E81100F391ED /* Files */ = {
+			isa = PBXGroup;
+			children = (
 				56551C962BE8E7D600F391ED /* Assets.xcassets */,
 				56551C982BE8E7D600F391ED /* LaunchScreen.storyboard */,
 				56551C9B2BE8E7D600F391ED /* Info.plist */,
+				56551C8D2BE8E7D100F391ED /* AppDelegate.swift */,
+				56551C8F2BE8E7D100F391ED /* SceneDelegate.swift */,
 			);
-			path = UniversityInformation;
+			name = Files;
+			sourceTree = "<group>";
+		};
+		56551CA92BE9256F00F391ED /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				56551CAA2BE9257C00F391ED /* MainViewModel.swift */,
+				56551CBC2BE935A200F391ED /* MainViewCellModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		56551CAC2BE9286300F391ED /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				56551CAD2BE9286E00F391ED /* ServiceConstant.swift */,
+				56551CAF2BE9291300F391ED /* Service.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		56551CB62BE92B1200F391ED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				56551CB72BE92B2000F391ED /* University.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		56551CB92BE930BC00F391ED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				56551CBA2BE930D000F391ED /* MainViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +153,10 @@
 			dependencies = (
 			);
 			name = UniversityInformation;
+			packageProductDependencies = (
+				56551CB22BE9295400F391ED /* Alamofire */,
+				56551CB42BE9295400F391ED /* AlamofireDynamic */,
+			);
 			productName = UniversityInformation;
 			productReference = 56551C8A2BE8E7D100F391ED /* UniversityInformation.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +185,9 @@
 				Base,
 			);
 			mainGroup = 56551C812BE8E7D000F391ED;
+			packageReferences = (
+				56551CB12BE9295400F391ED /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 56551C8B2BE8E7D100F391ED /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +204,6 @@
 			files = (
 				56551C9A2BE8E7D600F391ED /* LaunchScreen.storyboard in Resources */,
 				56551C972BE8E7D600F391ED /* Assets.xcassets in Resources */,
-				56551C952BE8E7D100F391ED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +214,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56551C922BE8E7D100F391ED /* ViewController.swift in Sources */,
+				56551CBB2BE930D000F391ED /* MainViewCell.swift in Sources */,
+				56551CAB2BE9257C00F391ED /* MainViewModel.swift in Sources */,
+				56551CB02BE9291300F391ED /* Service.swift in Sources */,
+				56551CA62BE8E85C00F391ED /* MainViewController.swift in Sources */,
+				56551CA82BE9255900F391ED /* MainViewControllerTableView.swift in Sources */,
+				56551CBD2BE935A200F391ED /* MainViewCellModel.swift in Sources */,
 				56551C8E2BE8E7D100F391ED /* AppDelegate.swift in Sources */,
+				56551CB82BE92B2000F391ED /* University.swift in Sources */,
 				56551C902BE8E7D100F391ED /* SceneDelegate.swift in Sources */,
+				56551CAE2BE9286E00F391ED /* ServiceConstant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		56551C932BE8E7D100F391ED /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				56551C942BE8E7D100F391ED /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		56551C982BE8E7D600F391ED /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,9 +372,9 @@
 				INFOPLIST_FILE = UniversityInformation/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,9 +382,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.DwozStudio.UniversityInformation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -325,9 +403,9 @@
 				INFOPLIST_FILE = UniversityInformation/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,9 +413,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.DwozStudio.UniversityInformation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -363,6 +444,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		56551CB12BE9295400F391ED /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		56551CB22BE9295400F391ED /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 56551CB12BE9295400F391ED /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		56551CB42BE9295400F391ED /* AlamofireDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 56551CB12BE9295400F391ED /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = AlamofireDynamic;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 56551C822BE8E7D000F391ED /* Project object */;
 }
